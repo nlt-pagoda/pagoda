@@ -1,0 +1,54 @@
+2012/01/24 03:24:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin.php".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('admin.php')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Pagoda/admin.php
+---
+2012/01/24 03:24:32 [error] [exception.CException] exception 'CException' with message 'CAssetManager.basePath "C:\wamp\www\Pagoda\assets" is invalid. Please make sure the directory exists and is writable by the Web server process.' in C:\wamp\www\yii\framework\web\CAssetManager.php:116
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CAssetManager.php(101): CAssetManager->setBasePath('C:\wamp\www\Pag...')
+#1 C:\wamp\www\yii\framework\web\CAssetManager.php(219): CAssetManager->getBasePath()
+#2 C:\wamp\www\yii\framework\web\CClientScript.php(449): CAssetManager->publish('C:\wamp\www\yii...')
+#3 C:\wamp\www\yii\framework\web\CClientScript.php(486): CClientScript->getCoreScriptUrl()
+#4 C:\wamp\www\yii\framework\web\CClientScript.php(302): CClientScript->getPackageBaseUrl('jquery')
+#5 C:\wamp\www\yii\framework\web\CClientScript.php(195): CClientScript->renderCoreScripts()
+#6 C:\wamp\www\yii\framework\web\CController.php(352): CClientScript->render('<!DOCTYPE html ...')
+#7 C:\wamp\www\yii\framework\web\CController.php(789): CController->processOutput('<!DOCTYPE html ...')
+#8 C:\wamp\www\Pagoda\protected\controllers\SiteController.php(92): CController->render('login', Array)
+#9 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#10 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('login')
+#14 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/login')
+#15 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/Pagoda/index.php/site/login
+HTTP_REFERER=http://localhost:81/Pagoda/
+---
+2012/01/24 03:24:47 [error] [exception.CException] exception 'CException' with message 'CAssetManager.basePath "C:\wamp\www\Pagoda\assets" is invalid. Please make sure the directory exists and is writable by the Web server process.' in C:\wamp\www\yii\framework\web\CAssetManager.php:116
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CAssetManager.php(101): CAssetManager->setBasePath('C:\wamp\www\Pag...')
+#1 C:\wamp\www\yii\framework\web\CAssetManager.php(219): CAssetManager->getBasePath()
+#2 C:\wamp\www\yii\framework\web\CClientScript.php(449): CAssetManager->publish('C:\wamp\www\yii...')
+#3 C:\wamp\www\yii\framework\web\CClientScript.php(486): CClientScript->getCoreScriptUrl()
+#4 C:\wamp\www\yii\framework\web\CClientScript.php(302): CClientScript->getPackageBaseUrl('jquery')
+#5 C:\wamp\www\yii\framework\web\CClientScript.php(195): CClientScript->renderCoreScripts()
+#6 C:\wamp\www\yii\framework\web\CController.php(352): CClientScript->render('<!DOCTYPE html ...')
+#7 C:\wamp\www\yii\framework\web\CController.php(789): CController->processOutput('<!DOCTYPE html ...')
+#8 C:\wamp\www\Pagoda\protected\controllers\SiteController.php(66): CController->render('contact', Array)
+#9 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionContact()
+#10 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('contact')
+#14 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/contact')
+#15 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/Pagoda/index.php/site/contact
+HTTP_REFERER=http://localhost:81/Pagoda/index.php/site/page?view=about
+---
