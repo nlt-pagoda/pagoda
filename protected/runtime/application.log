@@ -52,3 +52,1892 @@ Stack trace:
 REQUEST_URI=/Pagoda/index.php/site/contact
 HTTP_REFERER=http://localhost:81/Pagoda/index.php/site/page?view=about
 ---
+2012/01/25 04:38:51 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in C:\wamp\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\wamp\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\wamp\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\wamp\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\wamp\www\yii\framework\gii\generators\crud\CrudCode.php(44): CModule->__get('db')
+#5 C:\wamp\www\yii\framework\web\CFormModel.php(40): CrudCode->init()
+#6 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(152): CFormModel->__construct()
+#7 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('')
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('gii/crud')
+#14 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/pagoda/index.php/gii/crud
+HTTP_REFERER=http://localhost:81/pagoda/index.php/gii/default/index
+---
+2012/01/25 04:38:55 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in C:\wamp\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\wamp\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\wamp\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\wamp\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\wamp\www\yii\framework\gii\generators\crud\CrudCode.php(44): CModule->__get('db')
+#5 C:\wamp\www\yii\framework\web\CFormModel.php(40): CrudCode->init()
+#6 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(152): CFormModel->__construct()
+#7 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('')
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('gii/crud')
+#14 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/pagoda/index.php/gii/crud
+HTTP_REFERER=http://localhost:81/pagoda/index.php/gii/default/index
+---
+2012/01/25 04:39:01 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in C:\wamp\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\wamp\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\wamp\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\wamp\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\wamp\www\yii\framework\gii\generators\model\ModelCode.php(54): CModule->__get('db')
+#5 C:\wamp\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(152): CFormModel->__construct()
+#7 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('')
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('gii/model')
+#14 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/pagoda/index.php/gii/model
+HTTP_REFERER=http://localhost:81/pagoda/index.php/gii/default/index
+---
+2012/01/25 04:39:08 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in C:\wamp\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\wamp\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\wamp\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\wamp\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\wamp\www\yii\framework\gii\generators\crud\CrudCode.php(44): CModule->__get('db')
+#5 C:\wamp\www\yii\framework\web\CFormModel.php(40): CrudCode->init()
+#6 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(152): CFormModel->__construct()
+#7 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('')
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('gii/crud')
+#14 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/pagoda/index.php/gii/crud
+HTTP_REFERER=http://localhost:81/pagoda/index.php/gii/default/index
+---
+2012/01/25 04:39:56 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in C:\wamp\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\wamp\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\wamp\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\wamp\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\wamp\www\yii\framework\gii\generators\model\ModelCode.php(54): CModule->__get('db')
+#5 C:\wamp\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(152): CFormModel->__construct()
+#7 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('')
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('gii/model')
+#14 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/pagoda/index.php/gii/model
+HTTP_REFERER=http://localhost:81/pagoda/index.php/gii/default/index
+---
+2012/01/25 04:40:52 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in C:\wamp\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\wamp\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\wamp\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\wamp\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\wamp\www\yii\framework\gii\generators\crud\CrudCode.php(44): CModule->__get('db')
+#5 C:\wamp\www\yii\framework\web\CFormModel.php(40): CrudCode->init()
+#6 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(152): CFormModel->__construct()
+#7 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('')
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('gii/crud')
+#14 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/pagoda/index.php/gii/crud
+HTTP_REFERER=http://localhost:81/pagoda/index.php/gii/default/index
+---
+2012/01/25 04:40:55 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in C:\wamp\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\wamp\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\wamp\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\wamp\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\wamp\www\yii\framework\gii\generators\model\ModelCode.php(54): CModule->__get('db')
+#5 C:\wamp\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(152): CFormModel->__construct()
+#7 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('')
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('gii/model')
+#14 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/pagoda/index.php/gii/model
+HTTP_REFERER=http://localhost:81/pagoda/index.php/gii/default/index
+---
+2012/01/25 04:41:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in C:\wamp\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\wamp\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\wamp\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\wamp\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\wamp\www\yii\framework\gii\generators\crud\CrudCode.php(44): CModule->__get('db')
+#5 C:\wamp\www\yii\framework\web\CFormModel.php(40): CrudCode->init()
+#6 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(152): CFormModel->__construct()
+#7 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('')
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('gii/crud')
+#14 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/pagoda/index.php/gii/crud
+HTTP_REFERER=http://localhost:81/pagoda/index.php/gii/default/index
+---
+2012/01/25 04:48:56 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in C:\wamp\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\wamp\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\wamp\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\wamp\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\wamp\www\yii\framework\gii\generators\model\ModelCode.php(54): CModule->__get('db')
+#5 C:\wamp\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(152): CFormModel->__construct()
+#7 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('')
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('gii/model')
+#14 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Pagoda/index.php/gii/model
+HTTP_REFERER=http://localhost:81/Pagoda/index.php/gii
+---
+2012/01/25 04:51:50 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in C:\wamp\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\wamp\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\wamp\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\wamp\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\wamp\www\yii\framework\gii\generators\model\ModelCode.php(54): CModule->__get('db')
+#5 C:\wamp\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(152): CFormModel->__construct()
+#7 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('')
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('gii/model')
+#14 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Pagoda/index.php/gii/model
+HTTP_REFERER=http://localhost:81/Pagoda/index.php/gii
+---
+2012/01/25 04:51:59 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in C:\wamp\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\wamp\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\wamp\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\wamp\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\wamp\www\yii\framework\gii\generators\model\ModelCode.php(54): CModule->__get('db')
+#5 C:\wamp\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(152): CFormModel->__construct()
+#7 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('')
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('gii/model')
+#14 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Pagoda/index.php/gii/model
+HTTP_REFERER=http://localhost:81/Pagoda/index.php/gii
+---
+2012/01/25 04:52:07 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in C:\wamp\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\wamp\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\wamp\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\wamp\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\wamp\www\yii\framework\gii\generators\crud\CrudCode.php(44): CModule->__get('db')
+#5 C:\wamp\www\yii\framework\web\CFormModel.php(40): CrudCode->init()
+#6 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(152): CFormModel->__construct()
+#7 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('')
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('gii/crud')
+#14 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Pagoda/index.php/gii/crud
+HTTP_REFERER=http://localhost:81/Pagoda/index.php/gii
+---
+2012/01/25 04:52:29 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in C:\wamp\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\wamp\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\wamp\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\wamp\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\wamp\www\yii\framework\gii\generators\model\ModelCode.php(54): CModule->__get('db')
+#5 C:\wamp\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(152): CFormModel->__construct()
+#7 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('')
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('gii/model')
+#14 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Pagoda/index.php/gii/model
+HTTP_REFERER=http://localhost:81/Pagoda/index.php/gii
+---
+2012/01/25 04:52:33 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in C:\wamp\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\wamp\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\wamp\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\wamp\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\wamp\www\yii\framework\gii\generators\model\ModelCode.php(54): CModule->__get('db')
+#5 C:\wamp\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(152): CFormModel->__construct()
+#7 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('')
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('gii/model')
+#14 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Pagoda/index.php/gii/model
+HTTP_REFERER=http://localhost:81/Pagoda/index.php/gii
+---
+2012/01/25 04:52:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in C:\wamp\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\wamp\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\wamp\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\wamp\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\wamp\www\yii\framework\gii\generators\model\ModelCode.php(54): CModule->__get('db')
+#5 C:\wamp\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(152): CFormModel->__construct()
+#7 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('')
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('gii/model')
+#14 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Pagoda/index.php/gii/model
+HTTP_REFERER=http://localhost:81/Pagoda/index.php/gii
+---
+2012/01/25 04:53:42 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in C:\wamp\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\wamp\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\wamp\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\wamp\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\wamp\www\yii\framework\gii\generators\model\ModelCode.php(54): CModule->__get('db')
+#5 C:\wamp\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(152): CFormModel->__construct()
+#7 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('')
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('gii/model')
+#14 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Pagoda/index.php/gii/model
+HTTP_REFERER=http://localhost:81/Pagoda/index.php/gii
+---
+2012/01/25 04:53:44 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in C:\wamp\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\wamp\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\wamp\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\wamp\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\wamp\www\yii\framework\gii\generators\model\ModelCode.php(54): CModule->__get('db')
+#5 C:\wamp\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(152): CFormModel->__construct()
+#7 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('')
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('gii/model')
+#14 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Pagoda/index.php/gii/model
+HTTP_REFERER=http://localhost:81/Pagoda/index.php/gii
+---
+2012/01/25 04:53:48 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in C:\wamp\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\wamp\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\wamp\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\wamp\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\wamp\www\yii\framework\gii\generators\model\ModelCode.php(54): CModule->__get('db')
+#5 C:\wamp\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(152): CFormModel->__construct()
+#7 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('')
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('gii/model')
+#14 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Pagoda/index.php/gii/model
+HTTP_REFERER=http://localhost:81/Pagoda/index.php/gii
+---
+2012/01/25 06:04:51 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1049] Unknown database 'pagoda'' in C:\wamp\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\wamp\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\wamp\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\wamp\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\wamp\www\yii\framework\gii\generators\model\ModelCode.php(54): CModule->__get('db')
+#5 C:\wamp\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(152): CFormModel->__construct()
+#7 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('')
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('gii/model')
+#14 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/pagoda/index.php/gii/model
+HTTP_REFERER=http://localhost/pagoda/index.php/gii/default/index
+---
+2012/01/26 04:29:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "train".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('train')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('train')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('Customer/train')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pagoda/index.php/Customer/train
+---
+2012/01/26 05:15:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "alexPage".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('alexPage')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('alexPage')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user/alexPage')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pagoda/index.php/user/alexPage
+HTTP_REFERER=http://localhost/pagoda/index.php/user
+---
+2012/01/26 05:16:40 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('alexPage')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user/alexPage')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pagoda/index.php/user/alexPage
+HTTP_REFERER=http://localhost/pagoda/index.php/user
+---
+2012/01/26 05:17:44 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:337
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\wamp\www\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('update')
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user/update')
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/pagoda/index.php/user/update
+HTTP_REFERER=http://localhost/pagoda/index.php/user
+---
+2012/01/26 05:18:30 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:337
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\wamp\www\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('update')
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user/update')
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/pagoda/index.php/user/update
+HTTP_REFERER=http://localhost/pagoda/index.php/user
+---
+2012/01/26 05:20:18 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:337
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\wamp\www\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('update')
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user/update')
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/pagoda/index.php/user/update
+HTTP_REFERER=http://localhost/pagoda/index.php/user
+---
+2012/01/26 05:20:31 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('alexpage')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user/alexpage')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pagoda/index.php/user/alexpage
+HTTP_REFERER=http://localhost/pagoda/index.php/user
+---
+2012/01/26 05:22:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pagoda/index.php/user
+HTTP_REFERER=http://localhost/pagoda/index.php/user
+---
+2012/01/26 05:22:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/view".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user/view')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pagoda/index.php/user/1
+HTTP_REFERER=http://localhost/pagoda/index.php/user
+---
+2012/01/26 05:22:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pagoda/index.php/user
+HTTP_REFERER=http://localhost/pagoda/index.php/user/1
+---
+2012/01/26 05:22:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pagoda/index.php/user
+HTTP_REFERER=http://localhost/pagoda/index.php/user
+---
+2012/01/26 05:22:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/view".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user/view')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pagoda/index.php/user/1
+HTTP_REFERER=http://localhost/pagoda/index.php/user
+---
+2012/01/26 05:22:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pagoda/index.php/user
+HTTP_REFERER=http://localhost/pagoda/index.php
+---
+2012/01/26 05:22:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pagoda/index.php/user/
+---
+2012/01/26 05:36:25 [error] [php] Missing argument 1 for CController::__construct(), called in C:\wamp\www\Pagoda\protected\views\login\index.php on line 12 and defined (C:\wamp\www\yii\framework\web\CController.php:111)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CBaseController.php(96): LoginController->renderInternal()
+#1 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#2 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#3 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(7): LoginController->render()
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/login
+in C:\wamp\www\Pagoda\protected\views\login\index.php (12)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (7)
+in C:\wamp\www\Pagoda\index.php (13)
+2012/01/26 05:36:55 [error] [php] Missing argument 1 for CController::__construct(), called in C:\wamp\www\Pagoda\protected\views\login\index.php on line 12 and defined (C:\wamp\www\yii\framework\web\CController.php:111)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CBaseController.php(96): LoginController->renderInternal()
+#1 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#2 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#3 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(7): LoginController->render()
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/login
+in C:\wamp\www\Pagoda\protected\views\login\index.php (12)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (7)
+in C:\wamp\www\Pagoda\index.php (13)
+2012/01/26 05:42:31 [error] [php] Missing argument 1 for CController::__construct(), called in C:\wamp\www\Pagoda\protected\views\login\index.php on line 12 and defined (C:\wamp\www\yii\framework\web\CController.php:111)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CBaseController.php(96): LoginController->renderInternal()
+#1 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#2 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#3 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(7): LoginController->render()
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/login
+in C:\wamp\www\Pagoda\protected\views\login\index.php (12)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (7)
+in C:\wamp\www\Pagoda\index.php (13)
+2012/01/26 05:48:45 [error] [php] Missing argument 1 for CController::__construct(), called in C:\wamp\www\Pagoda\protected\views\login\index.php on line 12 and defined (C:\wamp\www\yii\framework\web\CController.php:111)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CBaseController.php(96): LoginController->renderInternal()
+#1 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#2 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#3 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(7): LoginController->render()
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/login
+in C:\wamp\www\Pagoda\protected\views\login\index.php (12)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (7)
+in C:\wamp\www\Pagoda\index.php (13)
+2012/01/26 05:49:42 [error] [php] Missing argument 1 for CController::__construct(), called in C:\wamp\www\Pagoda\protected\views\login\index.php on line 12 and defined (C:\wamp\www\yii\framework\web\CController.php:111)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CBaseController.php(96): LoginController->renderInternal()
+#1 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#2 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#3 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(7): LoginController->render()
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/login
+in C:\wamp\www\Pagoda\protected\views\login\index.php (12)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (7)
+in C:\wamp\www\Pagoda\index.php (13)
+2012/01/26 06:27:35 [error] [exception.CException] exception 'CException' with message 'Login and its behaviors do not have a method or closure named "isset".' in C:\wamp\www\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(226): CComponent->__call('isset', Array)
+#1 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(23): CActiveRecord->__call('isset', Array)
+#2 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(23): Login->isset('username')
+#3 C:\wamp\www\Pagoda\protected\views\login\index.php(16): LoginController->actionVerifyCredentials()
+#4 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\Pag...')
+#5 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\Pag...', NULL, true)
+#6 C:\wamp\www\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\Pag...', NULL, true)
+#7 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#8 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(8): CController->render('index')
+#9 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#10 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('')
+#14 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('login')
+#15 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/pagoda/index.php/login
+HTTP_REFERER=http://localhost/pagoda/index.php
+---
+2012/01/26 06:59:30 [error] [php] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array (C:\wamp\www\yii\framework\db\CDbCommand.php:461)
+Stack trace:
+#0 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(25): CDbCommand->query()
+#1 C:\wamp\www\Pagoda\protected\views\login\index.php(16): LoginController->actionVerifyCredentials()
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(127): require()
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(96): LoginController->renderInternal()
+#4 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#5 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#6 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(8): LoginController->render()
+#7 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#8 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#10 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#11 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#13 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/login
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (25)
+in C:\wamp\www\Pagoda\protected\views\login\index.php (16)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (8)
+2012/01/26 07:06:36 [error] [php] Use of undefined constant select - assumed 'select' (C:\wamp\www\Pagoda\protected\controllers\LoginController.php:24)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CBaseController.php(96): LoginController->renderInternal()
+#1 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#2 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#3 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(8): LoginController->render()
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/login
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (24)
+in C:\wamp\www\Pagoda\protected\views\login\index.php (16)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (8)
+2012/01/26 07:08:04 [error] [php] Use of undefined constant select - assumed 'select' (C:\wamp\www\Pagoda\protected\controllers\LoginController.php:24)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CBaseController.php(96): LoginController->renderInternal()
+#1 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#2 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#3 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(8): LoginController->render()
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/login
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (24)
+in C:\wamp\www\Pagoda\protected\views\login\index.php (16)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (8)
+2012/01/26 07:11:07 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty. The SQL statement executed was: .
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (25)
+in C:\wamp\www\Pagoda\protected\views\login\index.php (16)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (8)
+2012/01/26 07:11:07 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty. The SQL statement executed was: ' in C:\wamp\www\yii\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(372): CDbCommand->queryInternal('', 0, Array)
+#1 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(25): CDbCommand->query(Array)
+#2 C:\wamp\www\Pagoda\protected\views\login\index.php(16): LoginController->actionVerifyCredentials()
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\Pag...')
+#4 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\Pag...', NULL, true)
+#5 C:\wamp\www\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\Pag...', NULL, true)
+#6 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#7 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(8): CController->render('index')
+#8 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#9 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('')
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('login')
+#14 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/pagoda/index.php/login
+HTTP_REFERER=http://localhost/pagoda/index.php
+---
+2012/01/26 07:12:07 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty. The SQL statement executed was: .
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (24)
+in C:\wamp\www\Pagoda\protected\views\login\index.php (16)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (8)
+2012/01/26 07:12:07 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty. The SQL statement executed was: ' in C:\wamp\www\yii\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(372): CDbCommand->queryInternal('', 0, Array)
+#1 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(24): CDbCommand->query(Array)
+#2 C:\wamp\www\Pagoda\protected\views\login\index.php(16): LoginController->actionVerifyCredentials()
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\Pag...')
+#4 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\Pag...', NULL, true)
+#5 C:\wamp\www\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\Pag...', NULL, true)
+#6 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#7 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(8): CController->render('index')
+#8 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#9 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('')
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('login')
+#14 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/pagoda/index.php/login
+HTTP_REFERER=http://localhost/pagoda/index.php
+---
+2012/01/26 07:12:08 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty. The SQL statement executed was: .
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (24)
+in C:\wamp\www\Pagoda\protected\views\login\index.php (16)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (8)
+2012/01/26 07:12:08 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty. The SQL statement executed was: ' in C:\wamp\www\yii\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(372): CDbCommand->queryInternal('', 0, Array)
+#1 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(24): CDbCommand->query(Array)
+#2 C:\wamp\www\Pagoda\protected\views\login\index.php(16): LoginController->actionVerifyCredentials()
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\Pag...')
+#4 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\Pag...', NULL, true)
+#5 C:\wamp\www\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\Pag...', NULL, true)
+#6 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#7 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(8): CController->render('index')
+#8 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#9 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('')
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('login')
+#14 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/pagoda/index.php/login
+HTTP_REFERER=http://localhost/pagoda/index.php
+---
+2012/01/26 20:56:04 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty. The SQL statement executed was: .
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (24)
+in C:\wamp\www\Pagoda\protected\views\login\index.php (17)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (8)
+2012/01/26 20:56:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty. The SQL statement executed was: ' in C:\wamp\www\yii\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(372): CDbCommand->queryInternal('', 0, Array)
+#1 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(24): CDbCommand->query(Array)
+#2 C:\wamp\www\Pagoda\protected\views\login\index.php(17): LoginController->actionVerifyCredentials()
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\Pag...')
+#4 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\Pag...', NULL, true)
+#5 C:\wamp\www\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\Pag...', NULL, true)
+#6 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#7 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(8): CController->render('index')
+#8 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#9 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('')
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('login')
+#14 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/pagoda/index.php/login
+HTTP_REFERER=http://localhost/pagoda/index.php/login
+---
+2012/01/26 20:57:14 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty. The SQL statement executed was: .
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (24)
+in C:\wamp\www\Pagoda\protected\views\login\index.php (17)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (8)
+2012/01/26 20:57:14 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty. The SQL statement executed was: ' in C:\wamp\www\yii\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(372): CDbCommand->queryInternal('', 0, Array)
+#1 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(24): CDbCommand->query(Array)
+#2 C:\wamp\www\Pagoda\protected\views\login\index.php(17): LoginController->actionVerifyCredentials()
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\Pag...')
+#4 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\Pag...', NULL, true)
+#5 C:\wamp\www\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\Pag...', NULL, true)
+#6 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#7 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(8): CController->render('index')
+#8 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#9 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('')
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('login')
+#14 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/pagoda/index.php/login
+HTTP_REFERER=http://localhost/pagoda/index.php/login
+---
+2012/01/26 21:00:11 [error] [php] Undefined variable: model (C:\wamp\www\Pagoda\protected\controllers\LoginController.php:19)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CBaseController.php(96): LoginController->renderInternal()
+#1 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#2 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#3 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(13): LoginController->render()
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/login
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (19)
+in C:\wamp\www\Pagoda\protected\views\login\index.php (13)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (13)
+2012/01/26 21:11:11 [error] [php] Undefined variable: model (C:\wamp\www\Pagoda\protected\controllers\LoginController.php:19)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CBaseController.php(96): LoginController->renderInternal()
+#1 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#2 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#3 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(13): LoginController->render()
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/login
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (19)
+in C:\wamp\www\Pagoda\protected\views\login\index.php (13)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (13)
+2012/01/26 21:11:16 [error] [php] Undefined variable: model (C:\wamp\www\Pagoda\protected\controllers\LoginController.php:19)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CBaseController.php(96): LoginController->renderInternal()
+#1 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#2 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#3 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(13): LoginController->render()
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/login
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (19)
+in C:\wamp\www\Pagoda\protected\views\login\index.php (13)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (13)
+2012/01/26 21:11:53 [error] [php] Undefined variable: model (C:\wamp\www\Pagoda\protected\controllers\LoginController.php:19)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CBaseController.php(96): LoginController->renderInternal()
+#1 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#2 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#3 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(13): LoginController->render()
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/login
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (19)
+in C:\wamp\www\Pagoda\protected\views\login\index.php (13)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (13)
+2012/01/26 21:12:18 [error] [php] Undefined offset: 0 (C:\wamp\www\Pagoda\protected\controllers\LoginController.php:34)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CBaseController.php(96): LoginController->renderInternal()
+#1 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#2 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#3 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(13): LoginController->render()
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/login
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (34)
+in C:\wamp\www\Pagoda\protected\views\login\index.php (17)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (13)
+2012/01/26 21:12:34 [error] [php] Undefined variable: userExist (C:\wamp\www\Pagoda\protected\controllers\LoginController.php:38)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CBaseController.php(96): LoginController->renderInternal()
+#1 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#2 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#3 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(13): LoginController->render()
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/login
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (38)
+in C:\wamp\www\Pagoda\protected\views\login\index.php (17)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (13)
+2012/01/26 21:16:05 [error] [php] count() expects at least 1 parameter, 0 given (C:\wamp\www\Pagoda\protected\controllers\LoginController.php:34)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CBaseController.php(127): require()
+#1 C:\wamp\www\yii\framework\web\CBaseController.php(96): LoginController->renderInternal()
+#2 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#3 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#4 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(13): LoginController->render()
+#5 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#6 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#7 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#8 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#10 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#11 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/login
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (34)
+in C:\wamp\www\Pagoda\protected\views\login\index.php (17)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (13)
+2012/01/26 21:24:22 [error] [php] Trying to get property of non-object (C:\wamp\www\Pagoda\protected\controllers\LoginController.php:34)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CBaseController.php(96): LoginController->renderInternal()
+#1 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#2 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#3 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(13): LoginController->render()
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/login
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (34)
+in C:\wamp\www\Pagoda\protected\views\login\index.php (17)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (13)
+2012/01/26 21:25:09 [error] [php] Trying to get property of non-object (C:\wamp\www\Pagoda\protected\controllers\LoginController.php:34)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CBaseController.php(96): LoginController->renderInternal()
+#1 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#2 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#3 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(13): LoginController->render()
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/login
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (34)
+in C:\wamp\www\Pagoda\protected\views\login\index.php (17)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (13)
+2012/01/26 21:25:11 [error] [php] Trying to get property of non-object (C:\wamp\www\Pagoda\protected\controllers\LoginController.php:34)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CBaseController.php(96): LoginController->renderInternal()
+#1 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#2 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#3 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(13): LoginController->render()
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/login
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (34)
+in C:\wamp\www\Pagoda\protected\views\login\index.php (17)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (13)
+2012/01/26 21:28:06 [error] [php] Object of class Login could not be converted to string (C:\wamp\www\Pagoda\protected\controllers\LoginController.php:27)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CBaseController.php(96): LoginController->renderInternal()
+#1 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#2 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#3 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(13): LoginController->render()
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/login
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (27)
+in C:\wamp\www\Pagoda\protected\views\login\index.php (17)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (13)
+2012/01/26 21:28:20 [error] [php] Object of class Login could not be converted to string (C:\wamp\www\Pagoda\protected\controllers\LoginController.php:27)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CBaseController.php(96): LoginController->renderInternal()
+#1 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#2 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#3 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(13): LoginController->render()
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/login
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (27)
+in C:\wamp\www\Pagoda\protected\views\login\index.php (17)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (13)
+2012/01/26 21:31:10 [error] [php] Undefined offset: 0 (C:\wamp\www\Pagoda\protected\controllers\LoginController.php:37)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CBaseController.php(96): LoginController->renderInternal()
+#1 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#2 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#3 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(13): LoginController->render()
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/login
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (37)
+in C:\wamp\www\Pagoda\protected\views\login\index.php (17)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (13)
+2012/01/26 21:31:19 [error] [php] Trying to get property of non-object (C:\wamp\www\Pagoda\protected\controllers\LoginController.php:37)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CBaseController.php(96): LoginController->renderInternal()
+#1 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#2 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#3 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(13): LoginController->render()
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/login
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (37)
+in C:\wamp\www\Pagoda\protected\views\login\index.php (17)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (13)
+2012/01/26 21:35:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "LoginController/actionVerifyCredentials".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('LoginController...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pagoda/index.php/LoginController/actionVerifyCredentials?username=
+HTTP_REFERER=http://localhost/pagoda/index.php/login
+---
+2012/01/26 21:36:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "LoginController/actionVerifyCredentials".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('LoginController...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pagoda/index.php/LoginController/actionVerifyCredentials?username=
+HTTP_REFERER=http://localhost/pagoda/index.php/login
+---
+2012/01/26 21:36:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "LoginController/actionVerifyCredentials".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('LoginController...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pagoda/index.php/LoginController/actionVerifyCredentials?username=
+HTTP_REFERER=http://localhost/pagoda/index.php/login
+---
+2012/01/26 21:38:50 [error] [php] Undefined index: username (C:\wamp\www\Pagoda\protected\controllers\LoginController.php:26)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CBaseController.php(96): LoginController->renderInternal()
+#1 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#2 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#3 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(13): LoginController->render()
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/login
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (26)
+in C:\wamp\www\Pagoda\protected\views\login\index.php (23)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (13)
+2012/01/26 21:40:48 [error] [php] Undefined index: username (C:\wamp\www\Pagoda\protected\controllers\LoginController.php:26)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CBaseController.php(96): LoginController->renderInternal()
+#1 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#2 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#3 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(13): LoginController->render()
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/login
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (26)
+in C:\wamp\www\Pagoda\protected\views\login\index.php (23)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (13)
+2012/01/26 21:40:52 [error] [php] Undefined index: username (C:\wamp\www\Pagoda\protected\controllers\LoginController.php:26)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CBaseController.php(96): LoginController->renderInternal()
+#1 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#2 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#3 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(13): LoginController->render()
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/login
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (26)
+in C:\wamp\www\Pagoda\protected\views\login\index.php (23)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (13)
+2012/01/26 21:41:05 [error] [php] Undefined index: username (C:\wamp\www\Pagoda\protected\controllers\LoginController.php:26)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CBaseController.php(96): LoginController->renderInternal()
+#1 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#2 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#3 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(13): LoginController->render()
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/login
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (26)
+in C:\wamp\www\Pagoda\protected\views\login\index.php (23)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (13)
+2012/01/26 21:43:46 [error] [php] Undefined index: username (C:\wamp\www\Pagoda\protected\controllers\LoginController.php:28)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CBaseController.php(96): LoginController->renderInternal()
+#1 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#2 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#3 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(13): LoginController->render()
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/login
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (28)
+in C:\wamp\www\Pagoda\protected\views\login\index.php (23)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (13)
+2012/01/26 21:43:50 [error] [php] Undefined index: username (C:\wamp\www\Pagoda\protected\controllers\LoginController.php:28)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CBaseController.php(96): LoginController->renderInternal()
+#1 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#2 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#3 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(13): LoginController->render()
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/login
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (28)
+in C:\wamp\www\Pagoda\protected\views\login\index.php (23)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (13)
+2012/01/27 03:05:58 [error] [php] Undefined index: username (C:\wamp\www\Pagoda\protected\controllers\LoginController.php:28)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CBaseController.php(96): LoginController->renderInternal()
+#1 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#2 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#3 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(13): LoginController->render()
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/login
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (28)
+in C:\wamp\www\Pagoda\protected\views\login\index.php (23)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (13)
+2012/01/27 03:49:54 [error] [php] Undefined index: username (C:\wamp\www\Pagoda\protected\controllers\LoginController.php:39)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CBaseController.php(96): LoginController->renderInternal()
+#1 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#2 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#3 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(13): LoginController->render()
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/login
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (39)
+in C:\wamp\www\Pagoda\protected\views\login\index.php (23)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (13)
+2012/01/27 03:50:11 [error] [exception.CException] exception 'CException' with message 'CDbCommand and its behaviors do not have a method or closure named "rowCount".' in C:\wamp\www\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(42): CComponent->__call('rowCount', Array)
+#1 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(42): CDbCommand->rowCount()
+#2 C:\wamp\www\Pagoda\protected\views\login\index.php(23): LoginController->actionVerifyCredentials()
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\Pag...')
+#4 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\Pag...', NULL, true)
+#5 C:\wamp\www\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\Pag...', NULL, true)
+#6 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#7 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(13): CController->render('index')
+#8 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#9 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('')
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('login')
+#14 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/pagoda/index.php/login
+HTTP_REFERER=http://localhost/pagoda/index.php
+---
+2012/01/27 03:58:25 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'alexoulapour' in 'where clause'. The SQL statement executed was: SELECT * FROM user WHERE username = alexoulapour.
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (41)
+in C:\wamp\www\Pagoda\protected\views\login\index.php (23)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (13)
+2012/01/27 03:58:25 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'alexoulapour' in 'where clause'. The SQL statement executed was: SELECT * FROM user WHERE username = alexoulapour' in C:\wamp\www\yii\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(372): CDbCommand->queryInternal('', 0, Array)
+#1 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(41): CDbCommand->query()
+#2 C:\wamp\www\Pagoda\protected\views\login\index.php(23): LoginController->actionVerifyCredentials()
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\Pag...')
+#4 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\Pag...', NULL, true)
+#5 C:\wamp\www\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\Pag...', NULL, true)
+#6 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#7 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(13): CController->render('index')
+#8 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#9 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('')
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('login')
+#14 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/pagoda/index.php/login
+HTTP_REFERER=http://localhost/pagoda/index.php
+---
+2012/01/27 04:00:43 [error] [php] Undefined offset: 0 (C:\wamp\www\Pagoda\protected\controllers\LoginController.php:47)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CBaseController.php(96): LoginController->renderInternal()
+#1 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#2 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#3 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(13): LoginController->render()
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/login
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (47)
+in C:\wamp\www\Pagoda\protected\views\login\index.php (23)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (13)
+2012/01/27 04:01:55 [error] [php] Use of undefined constant results - assumed 'results' (C:\wamp\www\Pagoda\protected\controllers\LoginController.php:43)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CBaseController.php(96): LoginController->renderInternal()
+#1 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#2 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#3 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(13): LoginController->render()
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/login
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (43)
+in C:\wamp\www\Pagoda\protected\views\login\index.php (23)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (13)
+2012/01/27 04:02:09 [error] [php] Use of undefined constant results - assumed 'results' (C:\wamp\www\Pagoda\protected\controllers\LoginController.php:43)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CBaseController.php(96): LoginController->renderInternal()
+#1 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#2 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#3 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(13): LoginController->render()
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/login
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (43)
+in C:\wamp\www\Pagoda\protected\views\login\index.php (23)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (13)
+2012/01/27 04:02:10 [error] [php] Use of undefined constant results - assumed 'results' (C:\wamp\www\Pagoda\protected\controllers\LoginController.php:43)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CBaseController.php(96): LoginController->renderInternal()
+#1 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#2 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#3 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(13): LoginController->render()
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/login
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (43)
+in C:\wamp\www\Pagoda\protected\views\login\index.php (23)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (13)
+2012/01/27 04:03:51 [error] [php] Trying to get property of non-object (C:\wamp\www\Pagoda\protected\controllers\LoginController.php:48)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CBaseController.php(96): LoginController->renderInternal()
+#1 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#2 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#3 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(13): LoginController->render()
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/login
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (48)
+in C:\wamp\www\Pagoda\protected\views\login\index.php (23)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (13)
+2012/01/27 04:03:57 [error] [php] Trying to get property of non-object (C:\wamp\www\Pagoda\protected\controllers\LoginController.php:48)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CBaseController.php(96): LoginController->renderInternal()
+#1 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#2 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#3 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(13): LoginController->render()
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/login
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (48)
+in C:\wamp\www\Pagoda\protected\views\login\index.php (23)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (13)
+2012/01/27 04:09:59 [error] [php] Undefined index: username (C:\wamp\www\Pagoda\protected\controllers\LoginController.php:48)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CBaseController.php(96): LoginController->renderInternal()
+#1 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#2 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#3 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(13): LoginController->render()
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/login
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (48)
+in C:\wamp\www\Pagoda\protected\views\login\index.php (23)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (13)
+2012/01/27 04:15:24 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '["username"] AND password = $_POST["password"]' at line 1. The SQL statement executed was: SELECT * FROM user WHERE username = $_POST["username"] AND password = $_POST["password"].
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (41)
+in C:\wamp\www\Pagoda\protected\views\login\index.php (24)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (13)
+2012/01/27 04:15:24 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '["username"] AND password = $_POST["password"]' at line 1. The SQL statement executed was: SELECT * FROM user WHERE username = $_POST["username"] AND password = $_POST["password"]' in C:\wamp\www\yii\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(372): CDbCommand->queryInternal('', 0, Array)
+#1 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(41): CDbCommand->query()
+#2 C:\wamp\www\Pagoda\protected\views\login\index.php(24): LoginController->actionVerifyCredentials()
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\Pag...')
+#4 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\Pag...', NULL, true)
+#5 C:\wamp\www\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\Pag...', NULL, true)
+#6 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#7 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(13): CController->render('index')
+#8 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#9 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('')
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('login')
+#14 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/pagoda/index.php/login
+HTTP_REFERER=http://localhost/pagoda/index.php
+---
+2012/01/27 04:16:56 [error] [php] Undefined index: username (C:\wamp\www\Pagoda\protected\controllers\LoginController.php:35)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CBaseController.php(96): LoginController->renderInternal()
+#1 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#2 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#3 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(13): LoginController->render()
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/login
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (35)
+in C:\wamp\www\Pagoda\protected\views\login\index.php (24)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (13)
+2012/01/27 04:18:41 [error] [php] Undefined index: username (C:\wamp\www\Pagoda\protected\controllers\LoginController.php:36)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CBaseController.php(96): LoginController->renderInternal()
+#1 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#2 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#3 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(13): LoginController->render()
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/login
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (36)
+in C:\wamp\www\Pagoda\protected\views\login\index.php (24)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (13)
+2012/01/27 04:21:53 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'gg' in 'where clause'. The SQL statement executed was: SELECT * FROM user WHERE username = gg AND password = gg.
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (43)
+in C:\wamp\www\Pagoda\index.php (13)
+2012/01/27 04:21:53 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'gg' in 'where clause'. The SQL statement executed was: SELECT * FROM user WHERE username = gg AND password = gg' in C:\wamp\www\yii\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(372): CDbCommand->queryInternal('', 0, Array)
+#1 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(43): CDbCommand->query()
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionVerifyCredentials()
+#3 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('VerifyCredentia...')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('Login/VerifyCre...')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/pagoda/index.php/Login/VerifyCredentials?username=gg&password=gg
+HTTP_REFERER=http://localhost/pagoda/index.php/login
+---
+2012/01/27 04:22:17 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'alexoulapour' in 'where clause'. The SQL statement executed was: SELECT * FROM user WHERE username = alexoulapour AND password = password.
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (43)
+in C:\wamp\www\Pagoda\index.php (13)
+2012/01/27 04:22:17 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'alexoulapour' in 'where clause'. The SQL statement executed was: SELECT * FROM user WHERE username = alexoulapour AND password = password' in C:\wamp\www\yii\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(372): CDbCommand->queryInternal('', 0, Array)
+#1 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(43): CDbCommand->query()
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionVerifyCredentials()
+#3 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('VerifyCredentia...')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('Login/VerifyCre...')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/pagoda/index.php/Login/VerifyCredentials?username=alexoulapour&password=password
+HTTP_REFERER=http://localhost/pagoda/index.php/login
+---
+2012/01/27 04:50:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "welcome".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('welcome')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('welcome')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('login/welcome')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pagoda/index.php/login/welcome/
+---
+2012/01/27 04:50:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "welcome.php".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('welcome.php')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('welcome.php')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('login/welcome.p...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pagoda/index.php/login/welcome.php
+---
+2012/01/27 04:51:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "welcome".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('welcome')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('welcome')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('login/welcome')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pagoda/index.php/login/welcome/
+---
+2012/01/27 04:51:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "view/login/welcome.php".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('view/login/welc...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pagoda/index.php/view/login/welcome.php
+---
+2012/01/27 04:51:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "view/login/welcome".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('view/login/welc...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pagoda/index.php/view/login/welcome
+---
+2012/01/27 04:51:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "view/login/welcome.php".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('view/login/welc...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pagoda/index.php/view/login/welcome.php
+---
+2012/01/27 05:01:21 [error] [php] Undefined variable: uname (C:\wamp\www\Pagoda\protected\views\login\welcome.php:2)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#2 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(38): LoginController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionVerifyCredentials()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/Login/VerifyCredentials
+in C:\wamp\www\Pagoda\protected\views\login\welcome.php (2)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (38)
+in C:\wamp\www\Pagoda\index.php (13)
+2012/01/27 05:09:53 [error] [php] Undefined variable: uname2 (C:\wamp\www\Pagoda\protected\controllers\LoginController.php:38)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/Login/VerifyCredentials
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (38)
+in C:\wamp\www\Pagoda\index.php (13)
+2012/01/27 05:10:05 [error] [php] Undefined variable: uname2 (C:\wamp\www\Pagoda\protected\controllers\LoginController.php:38)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/Login/VerifyCredentials
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (38)
+in C:\wamp\www\Pagoda\index.php (13)
+2012/01/27 05:10:50 [error] [php] Undefined variable: uname2 (C:\wamp\www\Pagoda\protected\views\login\welcome.php:2)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#2 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(38): LoginController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionVerifyCredentials()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/Login/VerifyCredentials
+in C:\wamp\www\Pagoda\protected\views\login\welcome.php (2)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (38)
+in C:\wamp\www\Pagoda\index.php (13)
+2012/01/27 05:12:42 [error] [php] Undefined variable: uname2 (C:\wamp\www\Pagoda\protected\views\login\welcome.php:2)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#2 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(38): LoginController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionVerifyCredentials()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/Login/VerifyCredentials
+in C:\wamp\www\Pagoda\protected\views\login\welcome.php (2)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (38)
+in C:\wamp\www\Pagoda\index.php (13)
+2012/01/27 05:13:34 [error] [php] Undefined variable: uname (C:\wamp\www\Pagoda\protected\views\login\welcome.php:2)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#2 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(38): LoginController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionVerifyCredentials()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/Login/VerifyCredentials
+in C:\wamp\www\Pagoda\protected\views\login\welcome.php (2)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (38)
+in C:\wamp\www\Pagoda\index.php (13)
+2012/01/27 05:14:18 [error] [php] Undefined variable: uname (C:\wamp\www\Pagoda\protected\views\login\welcome.php:2)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#2 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(38): LoginController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionVerifyCredentials()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/Login/VerifyCredentials
+in C:\wamp\www\Pagoda\protected\views\login\welcome.php (2)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (38)
+in C:\wamp\www\Pagoda\index.php (13)
+2012/01/27 05:14:47 [error] [php] Undefined variable: uname2 (C:\wamp\www\Pagoda\protected\views\login\welcome.php:2)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): LoginController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): LoginController->renderPartial()
+#2 C:\wamp\www\Pagoda\protected\controllers\LoginController.php(38): LoginController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionVerifyCredentials()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): LoginController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): LoginController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\Pagoda\index.php(13): CWebApplication->run()
+REQUEST_URI=/pagoda/index.php/Login/VerifyCredentials
+in C:\wamp\www\Pagoda\protected\views\login\welcome.php (2)
+in C:\wamp\www\Pagoda\protected\controllers\LoginController.php (38)
+in C:\wamp\www\Pagoda\index.php (13)
+2012/01/27 05:33:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dd".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('dd')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('dd')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/dd')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pagoda/index.php/site/dd
+HTTP_REFERER=http://localhost/pagoda/index.php/site/index
+---
+2012/01/27 05:34:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dd".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('dd')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('dd')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/dd')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pagoda/index.php/site/dd
+HTTP_REFERER=http://localhost/pagoda/index.php/site/index
+---
+2012/01/27 05:34:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "index" was not found.' in C:\wamp\www\yii\framework\web\actions\CViewAction.php:113
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\actions\CViewAction.php(124): CViewAction->resolveView('index')
+#1 C:\wamp\www\yii\framework\web\actions\CAction.php(75): CViewAction->run()
+#2 C:\wamp\www\yii\framework\web\CController.php(309): CAction->runWithParams(Array)
+#3 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CViewAction))
+#4 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('page')
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/pagoda/index.php/site/page
+HTTP_REFERER=http://localhost/pagoda/index.php/site/page?view=about
+---
+2012/01/27 05:34:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "index" was not found.' in C:\wamp\www\yii\framework\web\actions\CViewAction.php:113
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\actions\CViewAction.php(124): CViewAction->resolveView('index')
+#1 C:\wamp\www\yii\framework\web\actions\CAction.php(75): CViewAction->run()
+#2 C:\wamp\www\yii\framework\web\CController.php(309): CAction->runWithParams(Array)
+#3 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CViewAction))
+#4 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('page')
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/pagoda/index.php/site/page
+HTTP_REFERER=http://localhost/pagoda/index.php/site/page?view=about
+---
+2012/01/27 05:58:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Pagoda/login".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('Pagoda/login')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Pagoda/
+---
+2012/01/27 05:58:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "../login".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('../login')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Pagoda/
+---
+2012/01/27 05:58:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "../login".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('../login')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Pagoda/
+---
+2012/01/27 05:59:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "../login".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('../login')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Pagoda/
+---
+2012/01/27 05:59:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "../login".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('../login')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Pagoda/
+---
+2012/01/27 05:59:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "../login".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('../login')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Pagoda/
+---
+2012/01/27 05:59:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "../login".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('../login')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Pagoda/
+---
+2012/01/27 05:59:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "../login".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('../login')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Pagoda/
+---
+2012/01/27 05:59:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "../login".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('../login')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\Pagoda\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Pagoda/
+---
